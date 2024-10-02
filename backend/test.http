@@ -1,0 +1,11 @@
+POST http://localhost:4000/app/signup
+Content-Type: application/json
+
+{
+    "firstName":"Muhammad Umar",
+    "lastName":"Muhammad Umar",
+    "email":"umarali0311@gmail.com",
+    "phone":"03115899320",
+    "password":"Muhammad Umar",
+    "cpassword":"Muhammad"
+}

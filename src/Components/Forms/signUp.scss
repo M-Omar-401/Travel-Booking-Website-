@@ -1,0 +1,29 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondayColor: hsl(187, 85%, 43%);
+    // --PrimaryColor: hsl(199, 100%, 33%);
+    --gradientColor: linear-gradient(
+      to right,
+      hsl(187, 85%, 43%),
+      hsl(199, 100%, 33%)
+    );
+  
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 0.33%, 0.16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 255, 235);
+    --cardHover: rgb(225, 255, 235);
+  }
+  .signUp{
+    width: 100%;
+    border: solid black 2px;
+    background-color: chocolate;
+    margin: 50%;
+  }
+
+  
+  

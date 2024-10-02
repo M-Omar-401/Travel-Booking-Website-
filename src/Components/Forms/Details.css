@@ -1,0 +1,104 @@
+.df{
+  /* height: 100vh; */
+ padding-top: 80px;
+}
+.Details {
+  width: 100%;
+  height: 430px;
+  display: flex;
+}
+.heading h2 {
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  font-family: serif;
+}
+.Details .pic1 {
+  width: 400px;
+  height: 400px;
+  margin: 15px;
+  margin-left: 30px;
+  /* border: 4px solid rgb(179, 166, 166); */
+  background-image: url("../../assets/p4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.Details .pic2 {
+  width: 400px;
+  height: 400px;
+  margin: 15px;
+  margin-left: 30px;
+  /* border: 4px solid rgb(179, 166, 166); */
+  background-image: url("../../assets/p6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.Details .pic3 {
+  width: 400px;
+  height: 400px;
+  margin: 15px;
+  margin-left: 30px;
+  /* border: 4px solid rgb(179, 166, 166); */
+  background-image: url("../../assets/p5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.txt1 {
+  height: 210px;
+  display: flex;
+}
+.txt1 .facilities {
+  height: 200px;
+  margin-left: 30px;
+  margin-right: 5px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: black;
+  background-color: darkgrey;
+  padding: 30px;
+  padding-left: 140px;
+}
+
+.txt1 .description {
+  height: 200px;
+  margin-left: 40px;
+  margin-right: 8px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: black;
+  background-color: darkgrey;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.txt1 .rules {
+  height: 200px;
+  margin-left: 40px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: black;
+  background-color: darkgrey;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.btnBook{
+    height:60px ;
+}
+.btnBook button {
+  margin-left: 650px;
+  height: 50px;
+  width: 150px;
+  border-radius: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  background: var(--gradientColor);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
